@@ -1,5 +1,6 @@
 # gotpod-react-walkalong
 
+npm install
 
 npx create-react-app my-app --use-npm
 
