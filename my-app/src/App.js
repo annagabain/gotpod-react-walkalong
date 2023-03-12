@@ -9,9 +9,12 @@ function App() {
   return (
     <div className="App">
       {/* <h1>It works!</h1> */}
-      <StatefulGreeting greeting="I am a stateful class component!" name="Anna"/>
+      <p>stateful greeting with props</p><StatefulGreeting greeting="I am a stateful class component!" name="Anna"/>
+      <hr/>
       <p>used once: functional greeting<FunctionalGreeting /></p>
+      <hr/>
       <p>used twice: functional greeting<FunctionalGreeting /></p>
+      <hr/>
       <p>functional greeting with props</p><FunctionalGreetingWithProps greeting="Nice to meet you!" name="Anna" age="36"/>
     </div>
   );
